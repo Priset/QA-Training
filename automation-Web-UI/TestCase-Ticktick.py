@@ -1,5 +1,4 @@
 import time
-
 from selenium import webdriver
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.chrome.service import Service
