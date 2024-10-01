@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "projectqa-training"
+version = "0.1.0"
+description = "Training QA"
+authors = ["Emanuel Lozano <emanuel.1kll@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.25.0"
+uuid = "^1.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
