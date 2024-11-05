@@ -8,7 +8,7 @@ class DriverFactory:
     @staticmethod
     def get_driver(browser_name="chrome"):
         if browser_name.lower() == "chrome":
-            service = ChromeService("C:\\workspace-python\\QA\\projectQA-Training\\automation-Web-UI\\drivers\\chromedriver.exe")
+            service = ChromeService("/automation-Web-UI/drivers/chromedriver.exe")
             driver = webdriver.Chrome(service=service)
         elif browser_name.lower() == "firefox":
             service = FirefoxService("C:\\workspace-python\\QA\\projectQA-Training\\automation-Web-UI\\drivers\\geckodriver.exe")

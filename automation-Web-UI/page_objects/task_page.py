@@ -1,9 +1,3 @@
-class LoginSection:
-    SIGN_IN_BUTTON = "//a[text()='Sign In']"
-    EMAIL_INPUT = "//input[@autocomplete='username']"
-    PASSWORD_INPUT = "//input[@autocomplete='current-password']"
-    SIGN_UP_BUTTON = "//button[contains(@class, 'button__3eXSs')]"
-
 class TaskSection:
     NEW_TASK_BUTTON = "//a[contains(@class, 'block relative w-[40px] h-[40px] relative px-[9px] py-[9px] active_3xqKF active special_2dY-B')]"
     HOVER_LIST = "//*[@id='project-list-scroller']/div[2]/section[1]/div[1]/li/a"

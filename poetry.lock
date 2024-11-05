@@ -173,13 +173,13 @@ files = [
 
 [[package]]
 name = "selenium"
-version = "4.25.0"
+version = "4.26.1"
 description = "Official Python bindings for Selenium WebDriver"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "selenium-4.25.0-py3-none-any.whl", hash = "sha256:3798d2d12b4a570bc5790163ba57fef10b2afee958bf1d80f2a3cf07c4141f33"},
-    {file = "selenium-4.25.0.tar.gz", hash = "sha256:95d08d3b82fb353f3c474895154516604c7f0e6a9a565ae6498ef36c9bac6921"},
+    {file = "selenium-4.26.1-py3-none-any.whl", hash = "sha256:1db3f3a0cd5bb07624fa8a3905a6fdde1595a42185a0617077c361dc53d104fb"},
+    {file = "selenium-4.26.1.tar.gz", hash = "sha256:7640f3f08ae7f4e450f895678e8a10a55eb4e4ca18311ed675ecc4684b96b683"},
 ]
 
 [package.dependencies]
@@ -214,13 +214,13 @@ files = [
 
 [[package]]
 name = "trio"
-version = "0.26.2"
+version = "0.27.0"
 description = "A friendly Python library for async concurrency and I/O"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "trio-0.26.2-py3-none-any.whl", hash = "sha256:c5237e8133eb0a1d72f09a971a55c28ebe69e351c783fc64bc37db8db8bbe1d0"},
-    {file = "trio-0.26.2.tar.gz", hash = "sha256:0346c3852c15e5c7d40ea15972c4805689ef2cb8b5206f794c9c19450119f3a4"},
+    {file = "trio-0.27.0-py3-none-any.whl", hash = "sha256:68eabbcf8f457d925df62da780eff15ff5dc68fd6b367e2dde59f7aaf2a0b884"},
+    {file = "trio-0.27.0.tar.gz", hash = "sha256:1dcc95ab1726b2da054afea8fd761af74bad79bd52381b84eae408e983c76831"},
 ]
 
 [package.dependencies]

@@ -1,9 +1,6 @@
 import time
 from selenium.webdriver import ActionChains, Keys
-from config_variables import ConfigVariables
-from driver_singleton import DriverSingleton
-from element_builder import ElementBuilder
-from page_elements import LoginSection, TaskSection
+
 
 password = ConfigVariables.PASSWORD
 email = ConfigVariables.EMAIL
